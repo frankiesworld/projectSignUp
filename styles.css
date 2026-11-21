@@ -1,0 +1,59 @@
+#container {
+    border: solid black 2px;
+    flex-direction: row;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    background-image: url(beach.jpg); 
+    background-position: 65%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-family: "Faustina", serif;
+    font-size: 2em;
+    color: rgb(10, 90, 73)
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    padding: 20px;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    font-size: 130%;
+    width: 50%;
+}
+
+input {
+    font-size: 90%;
+}
+
+button {
+    font-size: 25px;
+    background-color: rgb(223, 217, 199);
+    color: rgb(10, 90, 73);
+}
+
